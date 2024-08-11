@@ -1,19 +1,25 @@
-function slider(e)
+function gameStart()
+{
+    var firstIndex = document.getElementById('rockImage').style.display="inline";
+}
+function slider()
 {
     var images = document.getElementById('round').getElementsByTagName('img');
     var index = 0;
-    var starter = setInterval(function(){flash()} , 100);
+    var starter = setInterval(function(){flash()} , 1);
     function flash()
     {
-        index+=1;
+        index++;
         if(index==images.length)
+        {
             index=0;
-        
+        }
         if(index==0)
             images[images.length-1].style.display='none';
         else
             images[index-1].style.display='none';
-            images[index].style.display='inline';
+            
+        images[index].style.display='inline';
     }
     document.getElementById('startButton').style.display='none';
     
