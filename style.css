@@ -33,3 +33,45 @@ body
 {
     font-family: "Roboto Slab" , arial , sans-serif;
 }
+
+
+/*#############################################################################
+##############################################################################*/
+/*@media screen and (max-width:480px)
+{
+    body
+    {
+        margin: 0px;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #main
+    {
+        max-width: 100%;
+        min-height: 750px;
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start ;
+        align-items:center;
+        background-color: tomato;
+    }
+    #main div
+    {
+        width: 18%;
+    }
+    #round
+    {
+        text-align:center;
+    }
+    #round img
+    {
+        display:none;
+        width: 100%;
+        height: 100%;
+    }
+    #startButton
+    {
+        font-family: "Roboto Slab" , arial , sans-serif;
+    }   
+}*/
