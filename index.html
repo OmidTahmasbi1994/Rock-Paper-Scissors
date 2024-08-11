@@ -17,21 +17,22 @@
     </head>
     <body onload="gameStart()">
         <main id="main">
+            <div id="massage">
+                <span class="fa-solid fa-face-laugh-beam" id="winMassage"> آوَرین</span>
+                <span class="fa-solid fa-face-frown" id="loseMassage"> باختی</san>
+            </div>
             <div id="round">
                 <img src="rock.jpg" id="rockImage">
                 <img src="paper.jpg" id="paperImage">
                 <img src="scissors.jpg" id="scissorsImage">
             </div>
-            <div id="massage">
-    
-            </div>
             <div id="select">
-                <input type="button" value="rock" id="rock">
-                <input type="button" value="paper" id="paper">
-                <input type="button" value="scissors" id="scissors">
+                <img src="rockSelect.jpg" id="rock">
+                <img src="paperSelect.jpg" id="paper">
+                <img src="scissorsSelect.jpg" id="scissors">
             </div>
             <div id="start">
-                <input type="button" value="start" id="startButton" onclick="slider()">
+                <span id="startButton" onclick="slider()">start</span>
             </div>
         </main>
     </body>

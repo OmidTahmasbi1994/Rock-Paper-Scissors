@@ -13,31 +13,89 @@ body
     flex-direction: column;
     justify-content:flex-start ;
     align-items:center;
-    background-color: tomato;
+    background-color: indigo;
 }
 #main div
 {
-    width: 18%;
+    width: 45%;
+}
+#massage
+{
+    height: 80px;
+    margin-top: 0px;
+    text-align: center;
+    padding-top: 25px;
+}
+#massage span
+{
+    display: none;
+    font-size: 65px;
+    color: lightgoldenrodyellow;
 }
 #round
 {
+    margin-top: 10px;
     text-align:center;
+    height: 340px;
 }
 #round img
 {
     display:none;
-    width: 100%;
+    width: 35%;
     height: 100%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: midnightblue;
+    border-radius: 20px;
+}
+#select
+{
+    height: 120px;
+    margin-top: 0px;
+    text-align: center;
+}
+#select img
+{
+    width:65px;
+    margin-top:20px;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-style: solid;
+    border-width: 8px;
+    border-color: midnightblue;
+    border-radius: 100px;
+    cursor:pointer;
+}
+#start
+{
+    height: 80px;
+    margin-top: 0px;
+    text-align: center;
+    padding-top: 0px;  
 }
 #startButton
 {
+    display: inline-block;
+    width: 27%;
+    height: 50px;
+    padding-top:5px;
+    text-align: center;
+    background-color: white;
+    color: midnightblue;
     font-family: "Roboto Slab" , arial , sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 8px;
+    border-color: midnightblue;
+    border-radius: 20px;
+    cursor:default;
 }
 
 
 /*#############################################################################
 ##############################################################################*/
-/*@media screen and (max-width:480px)
+@media screen and (max-width:480px)
 {
     body
     {
@@ -54,24 +112,81 @@ body
         flex-direction: column;
         justify-content:flex-start ;
         align-items:center;
-        background-color: tomato;
+        background-color: indigo;
     }
     #main div
     {
-        width: 18%;
+        width: 100%;
+    }
+    #massage
+    {
+        height: 80px;
+        margin-top: 0px;
+        text-align: center;
+        padding-top: 50px;
+    }
+    #massage span
+    {
+        display: none;
+        font-size: 50px;
+        color: lightgoldenrodyellow;
     }
     #round
     {
+        margin-top: 0px;
         text-align:center;
+        height: 280px;
     }
     #round img
     {
         display:none;
-        width: 100%;
+        width: 60%;
         height: 100%;
+        border-style: solid;
+        border-width: 3px;
+        border-color: midnightblue;
+        border-radius: 20px;
+    }
+    #select
+    {
+        height: 85px;
+        margin-top: 30px;
+        text-align: center;
+    }
+    #select img
+    {
+        width:60px;
+        margin-top:0px;
+        margin-left: 2px;
+        margin-right: 2px;
+        border-style: solid;
+        border-width: 8px;
+        border-color: midnightblue;
+        border-radius: 100px;
+        cursor:pointer;
+    }
+    #start
+    {
+        height: 80px;
+        margin-top: 10px;
+        text-align: center;
+        padding-top: 0px;  
     }
     #startButton
     {
+        display: inline-block;
+        width: 30%;
+        height: 40px;
+        padding-top:5px;
+        text-align: center;
+        background-color: white;
+        color: midnightblue;
         font-family: "Roboto Slab" , arial , sans-serif;
+        font-size: 23px;
+        font-weight: bold;
+        border-style: solid;
+        border-width: 8px;
+        border-color: midnightblue;
+        border-radius: 20px;
     }   
-}*/
+}
