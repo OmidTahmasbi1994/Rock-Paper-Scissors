@@ -13,7 +13,7 @@ body
     flex-direction: column;
     justify-content:flex-start ;
     align-items:center;
-    background-color: indigo;
+    background-color: black;
 }
 #main div
 {
@@ -21,16 +21,17 @@ body
 }
 #massage
 {
-    height: 80px;
-    margin-top: 0px;
+    height: 65px;
+    margin-top: 20px;
     text-align: center;
-    padding-top: 25px;
+    padding-top: 35px;
 }
 #massage span
 {
     display: none;
-    font-size: 65px;
-    color: lightgoldenrodyellow;
+    font-size: 50px;
+    font-weight: bold;
+    color: gold;
 }
 #round
 {
@@ -41,12 +42,12 @@ body
 #round img
 {
     display:none;
-    width: 35%;
-    height: 100%;
+    width: 30%;
+    height: 95%;
     border-style: solid;
-    border-width: 3px;
-    border-color: midnightblue;
-    border-radius: 20px;
+    border-width: 4px;
+    border-color: yellow;
+    border-radius: 4px;
 }
 #select
 {
@@ -61,8 +62,8 @@ body
     margin-left: 3px;
     margin-right: 3px;
     border-style: solid;
-    border-width: 8px;
-    border-color: midnightblue;
+    border-width: 4px;
+    border-color: yellow;
     border-radius: 100px;
     cursor:pointer;
 }
@@ -80,14 +81,14 @@ body
     height: 50px;
     padding-top:5px;
     text-align: center;
-    background-color: white;
+    background-color: snow;
     color: midnightblue;
     font-family: "Roboto Slab" , arial , sans-serif;
     font-size: 30px;
     font-weight: bold;
     border-style: solid;
-    border-width: 8px;
-    border-color: midnightblue;
+    border-width: 4px;
+    border-color: yellow;
     border-radius: 20px;
     cursor:default;
 }
@@ -112,7 +113,7 @@ body
         flex-direction: column;
         justify-content:flex-start ;
         align-items:center;
-        background-color: indigo;
+        background-color: rgb(0, 12, 56);
     }
     #main div
     {
@@ -120,7 +121,7 @@ body
     }
     #massage
     {
-        height: 80px;
+        height: 70px;
         margin-top: 0px;
         text-align: center;
         padding-top: 50px;
@@ -128,14 +129,14 @@ body
     #massage span
     {
         display: none;
-        font-size: 50px;
-        color: lightgoldenrodyellow;
+        font-size: 45px;
+        color: rgb(225, 253, 231);
     }
     #round
     {
         margin-top: 0px;
         text-align:center;
-        height: 280px;
+        height: 290px;
     }
     #round img
     {
@@ -143,9 +144,9 @@ body
         width: 60%;
         height: 100%;
         border-style: solid;
-        border-width: 3px;
-        border-color: midnightblue;
-        border-radius: 20px;
+        border-width: 4px;
+        border-color: yellow;
+        border-radius: 3px;
     }
     #select
     {
@@ -160,8 +161,8 @@ body
         margin-left: 2px;
         margin-right: 2px;
         border-style: solid;
-        border-width: 8px;
-        border-color: midnightblue;
+        border-width: 3px;
+        border-color: yellow;
         border-radius: 100px;
         cursor:pointer;
     }
@@ -175,18 +176,18 @@ body
     #startButton
     {
         display: inline-block;
-        width: 30%;
+        width: 35%;
         height: 40px;
         padding-top:5px;
         text-align: center;
-        background-color: white;
-        color: midnightblue;
+        background-color: snow;
+        color: rgb(0, 12, 56);
         font-family: "Roboto Slab" , arial , sans-serif;
         font-size: 23px;
         font-weight: bold;
         border-style: solid;
-        border-width: 8px;
-        border-color: midnightblue;
+        border-width: 3px;
+        border-color: yellow;
         border-radius: 20px;
     }   
 }
