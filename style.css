@@ -13,7 +13,7 @@ body
     flex-direction: column;
     justify-content:flex-start ;
     align-items:center;
-    background-color: black;
+    background-color: rgb(37, 37, 37);
 }
 #main div
 {
@@ -29,9 +29,14 @@ body
 #massage span
 {
     display: none;
-    font-size: 50px;
+    font-size: 32px;
     font-weight: bold;
-    color: gold;
+    letter-spacing: 1px;
+    color: paleturquoise;
+}
+#startMassage
+{
+    font-family: "roboto slab","arial",sans-serif;
 }
 #round
 {
@@ -46,7 +51,7 @@ body
     height: 95%;
     border-style: solid;
     border-width: 4px;
-    border-color: yellow;
+    border-color: lightcyan;
     border-radius: 4px;
 }
 #select
@@ -63,7 +68,7 @@ body
     margin-right: 3px;
     border-style: solid;
     border-width: 4px;
-    border-color: yellow;
+    border-color: paleturquoise;
     border-radius: 100px;
     cursor:pointer;
 }
@@ -82,13 +87,13 @@ body
     padding-top:5px;
     text-align: center;
     background-color: snow;
-    color: midnightblue;
+    color: rgb(36, 57, 57);
     font-family: "Roboto Slab" , arial , sans-serif;
     font-size: 30px;
     font-weight: bold;
     border-style: solid;
     border-width: 4px;
-    border-color: yellow;
+    border-color: paleturquoise;
     border-radius: 20px;
     cursor:default;
 }
@@ -113,7 +118,7 @@ body
         flex-direction: column;
         justify-content:flex-start ;
         align-items:center;
-        background-color: rgb(0, 12, 56);
+        background-color: rgb(37, 37, 37);
     }
     #main div
     {
@@ -122,15 +127,19 @@ body
     #massage
     {
         height: 70px;
-        margin-top: 0px;
+        margin-top: 30px;
         text-align: center;
         padding-top: 50px;
     }
     #massage span
     {
         display: none;
-        font-size: 45px;
-        color: rgb(225, 253, 231);
+        font-size: 26px;
+        color: paleturquoise;
+    }
+    #startMassage
+    {
+        font-family: "roboto slab","arial",sans-serif;
     }
     #round
     {
@@ -145,7 +154,7 @@ body
         height: 100%;
         border-style: solid;
         border-width: 4px;
-        border-color: yellow;
+        border-color: lightcyan;
         border-radius: 3px;
     }
     #select
@@ -162,7 +171,7 @@ body
         margin-right: 2px;
         border-style: solid;
         border-width: 3px;
-        border-color: yellow;
+        border-color: paleturquoise;
         border-radius: 100px;
         cursor:pointer;
     }
@@ -181,13 +190,13 @@ body
         padding-top:5px;
         text-align: center;
         background-color: snow;
-        color: rgb(0, 12, 56);
+        color: rgb(36, 57, 57);
         font-family: "Roboto Slab" , arial , sans-serif;
         font-size: 23px;
         font-weight: bold;
         border-style: solid;
         border-width: 3px;
-        border-color: yellow;
+        border-color: paleturquoise;
         border-radius: 20px;
     }   
 }
