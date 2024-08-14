@@ -1,8 +1,11 @@
 function gameStart()
 {
     document.getElementById('rockImage').style.display="inline";
-    document.getElementById('startMassage').style.display='inline';
-    
+    document.getElementById('startButton').style.display='inline-block';
+    document.getElementById('startMassage').style.display='inline'; 
+    document.getElementById('winMassage').style.display='none';
+    document.getElementById('loseMassage').style.display='none';
+    document.getElementById('repeatMassage').style.display='none';
 }
 function slider(){
     var images = document.getElementById('round').getElementsByTagName('img');
@@ -23,10 +26,19 @@ function slider(){
             
         images[index].style.display='inline';
     }
+
     document.getElementById('startButton').style.display='none';
+
     document.getElementById('startMassage').style.display='none';
     document.getElementById('winMassage').style.display='none';
     document.getElementById('loseMassage').style.display='none';
+    document.getElementById('repeatMassage').style.display='none';
+
+    document.getElementById('rock').style.display = 'inline';
+    document.getElementById('paper').style.display = 'inline';
+    document.getElementById('scissors').style.display = 'inline';
+
+
 
     //select buttons function
 
@@ -37,30 +49,49 @@ function slider(){
     //rock button
     function rock_stopper(){
         clearInterval(starter);
+
+        document.getElementById('paper').style.display = 'none';
+        document.getElementById('scissors').style.display = 'none';
+
         document.getElementById('startButton').style.display='inline-block';
-        if(images[index].id=='scissorsImage' && document.getElementById('loseMassage').style.display!='inline')
+
+        if(images[index].id=='scissorsImage')
             document.getElementById('winMassage').style.display='inline';
-        else if(images[index].id=='paperImage' && document.getElementById('winMassage').style.display!='inline')
+        else if(images[index].id=='paperImage')
             document.getElementById('loseMassage').style.display='inline';
+        else if(images[index].id=='rockImage')
+            document.getElementById('repeatMassage').style.display='inline';
     }
 
     //paper button
     function paper_stopper(){
         clearInterval(starter);
+
+        document.getElementById('rock').style.display = 'none';
+        document.getElementById('scissors').style.display = 'none';
+
         document.getElementById('startButton').style.display='inline-block';
         if(images[index].id=='rockImage' && document.getElementById('loseMassage').style.display!='inline')
             document.getElementById('winMassage').style.display='inline';
         else if(images[index].id=='scissorsImage' && document.getElementById('winMassage').style.display!='inline')
             document.getElementById('loseMassage').style.display='inline';
+        else if(images[index].id=='paperImage')
+            document.getElementById('repeatMassage').style.display='inline';
     }
 
     //scissors button
     function scissors_stopper(){
         clearInterval(starter);
+
+        document.getElementById('rock').style.display = 'none';
+        document.getElementById('paper').style.display = 'none';
+
         document.getElementById('startButton').style.display='inline-block';
         if(images[index].id=='paperImage' && document.getElementById('loseMassage').style.display!='inline')
             document.getElementById('winMassage').style.display='inline';
         else if(images[index].id=='rockImage' && document.getElementById('winMassage').style.display!='inline')
             document.getElementById('loseMassage').style.display='inline';
+        else if(images[index].id=='scissorsImage')
+            document.getElementById('repeatMassage').style.display='inline';
     }    
 }
