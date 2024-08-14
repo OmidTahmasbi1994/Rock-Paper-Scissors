@@ -1,7 +1,7 @@
 body
 {
     margin: 0px;
-    background-image: url('background-1.jpg');
+    background-color: rgb(25, 25, 25);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -91,7 +91,7 @@ body
 {
     width: 23%;
     height: 45px;
-    padding-top:5px;
+    padding-top:12px;
     text-align: center;
     background-color: rgb(0, 255, 255);
     color: black;
@@ -113,7 +113,7 @@ body
     body
     {
         margin: 0px;
-        background-image: url('background-3.jpg');
+        background-color: rgb(25, 25, 25);
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: cover;
@@ -140,7 +140,7 @@ body
     #round img
     {
         display:none;/* look at this */
-        width: 63%;
+        width: 60%;
         height: 95%;
         border-style: solid;
         border-width: 2px;
