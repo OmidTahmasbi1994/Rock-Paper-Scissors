@@ -56,7 +56,6 @@ body
 }
 #select span
 {
-    /* look at this */
     font-size: 27px;
     font-weight: bold;
     letter-spacing: 1px;
@@ -64,20 +63,24 @@ body
 }
 #startMassage
 {
+    display: inline;
     font-family: "roboto slab","arial",sans-serif;
     font-size: 23px !important;
 }
 #repeatMassage
 {
+    display: none;
     font-family: "roboto slab","arial",sans-serif;  
     font-size: 23px !important;
 }
 #winMassage
 {
+    display: none;
     color: green !important;
 }
 #loseMassage
 {
+    display: none;
     color: red !important;
 }
 #start
@@ -168,7 +171,6 @@ body
     }
     #select span
     {
-        /* look at this */
         font-size: 25px;
         font-weight: bold;
         letter-spacing: 1px;
@@ -176,20 +178,24 @@ body
     }
     #startMassage
     {
+        display: inline;
         font-family: "roboto slab","arial",sans-serif;
         font-size: 22px !important;
     }
     #repeatMassage
     {
+        display: none;
         font-family: "roboto slab","arial",sans-serif;  
         font-size: 22px !important;
     }
     #winMassage
     {
+        display: none;
         color: green !important;
     }
     #loseMassage
     {
+        display: none;
         color: red !important;
     }
     #start

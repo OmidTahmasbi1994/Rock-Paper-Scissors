@@ -2,10 +2,6 @@ function gameStart()
 {
     document.getElementById('rockImage').style.display="inline";
     document.getElementById('startButton').style.display='inline-block';
-    document.getElementById('startMassage').style.display='inline'; 
-    document.getElementById('winMassage').style.display='none';
-    document.getElementById('loseMassage').style.display='none';
-    document.getElementById('repeatMassage').style.display='none';
 }
 function slider(){
     var images = document.getElementById('round').getElementsByTagName('img');
@@ -71,9 +67,9 @@ function slider(){
         document.getElementById('scissors').style.display = 'none';
 
         document.getElementById('startButton').style.display='inline-block';
-        if(images[index].id=='rockImage' && document.getElementById('loseMassage').style.display!='inline')
+        if(images[index].id=='rockImage')
             document.getElementById('winMassage').style.display='inline';
-        else if(images[index].id=='scissorsImage' && document.getElementById('winMassage').style.display!='inline')
+        else if(images[index].id=='scissorsImage')
             document.getElementById('loseMassage').style.display='inline';
         else if(images[index].id=='paperImage')
             document.getElementById('repeatMassage').style.display='inline';
@@ -87,9 +83,9 @@ function slider(){
         document.getElementById('paper').style.display = 'none';
 
         document.getElementById('startButton').style.display='inline-block';
-        if(images[index].id=='paperImage' && document.getElementById('loseMassage').style.display!='inline')
+        if(images[index].id=='paperImage')
             document.getElementById('winMassage').style.display='inline';
-        else if(images[index].id=='rockImage' && document.getElementById('winMassage').style.display!='inline')
+        else if(images[index].id=='rockImage')
             document.getElementById('loseMassage').style.display='inline';
         else if(images[index].id=='scissorsImage')
             document.getElementById('repeatMassage').style.display='inline';
