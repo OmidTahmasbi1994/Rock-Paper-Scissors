@@ -2,11 +2,10 @@
 <html>
     <head>
         <title>Rock Paper Scissors</title>
-        <link type="text/css" rel="stylesheet" href="style.css" />
         <link type="image/" rel="icon" sizes="16×16" href="icon.png" />
+        <link type="text/css" rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/all.min.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" />
-        <script type="text/javascript" src="script.js"></script>
-        <script src="https://kit.fontawesome.com/060d9e5d29.js" crossorigin="anonymous"></script>
         <meta charset="UTF-8" />
         <meta name="author" content="Omid Tahmasebi Boldaji" />
         <meta name="description" content="Omid Tahmasebi Boldai" />
@@ -18,25 +17,27 @@
     <body onload="gameStart()">
         <main id="main">
             <div id="round">
-                <img src="rock.jpg" id="rockImage">
-                <img src="paper.jpg" id="paperImage">
-                <img src="scissors.jpg" id="scissorsImage">
+                <img src="images/rock.jpg" id="rockImage">
+                <img src="images/paper.jpg" id="paperImage">
+                <img src="images/scissors.jpg" id="scissorsImage">
             </div>
             <div id="select">
                 <!-- buttons -->
-                <img src="rockSelect.jpg" id="rock">
-                <img src="paperSelect.jpg" id="paper">
-                <img src="scissorsSelect.jpg" id="scissors"></br></br>
+                <img src="images/rockSelect.jpg" id="rock">
+                <img src="images/paperSelect.jpg" id="paper">
+                <img src="images/scissorsSelect.jpg" id="scissors"></br></br>
                 
                 <!-- massages -->
                 <span id="startMassage">press "start" to play</span>
                 <span id="repeatMassage">let's try again</span>
-                <span class="fa-solid fa-face-laugh-beam" id="winMassage"> well done</span>
-                <span class="fa-solid fa-face-frown" id="loseMassage"> you lose</san>
+                <span id="winMassage"> well done <i class="fa-solid fa-face-laugh-beam"></i></span>
+                <span class="" id="loseMassage"> you lose <i class="fa-solid fa-face-frown"></i></san>
             </div>
             <div id="start">
                 <span id="startButton" onclick="slider()">start</span>
             </div>
         </main>
+
+        <script type="text/javascript" src="javascript/script.js"></script>
     </body>
 </html>

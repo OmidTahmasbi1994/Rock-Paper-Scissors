@@ -1,15 +1,45 @@
+/* FontAwesome Icons */
+@font-face {
+    font-family: 'FontAwesome';
+    src: url(../webfonts/fa-brands-400.ttf) format('usertype') ,
+    url(../webfonts/fa-brands-400.woff2) format('woff2');
+    font-weight: brands;
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url(../webfonts/fa-regular-400.ttf) format('usertype') ,
+    url(../webfonts/fa-regular-400.woff2) format('woff2');
+    font-weight: regular;
+}
+@font-face {
+    font-family: 'FontAwesome';
+    src: url(../webfonts/fa-solid-900.ttf) format('usertype') ,
+    url(../webfonts/fa-solid-900.woff2) format('woff2');
+    font-weight: solid;
+}
+@font-face {
+    font-family: 'FontAwesome';
+    src: url(../webfonts/fa-v4compatibility.ttf) format('usertype') ,
+    url(../webfonts/fa-v4compatibility.woff2) format('woff2');
+    font-weight: compatibility;
+}
+
+/* main codes */
+
+*{
+    margin: 0;
+    padding: 0;
+}
 body
 {
-    margin: 0px;
-    background-color: rgb(25, 25, 25);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
+    direction: ltr;
+    background: linear-gradient(to right,rgb(25, 25, 25),rgb(30, 0, 0));
 }
 #main
 {
     max-width: 100%;
-    min-height: 750px;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content:flex-start ;
@@ -76,11 +106,13 @@ body
 #winMassage
 {
     display: none;
+    font-family: "roboto slab","arial",sans-serif;
     color: green !important;
 }
 #loseMassage
 {
     display: none;
+    font-family: "roboto slab","arial",sans-serif;
     color: red !important;
 }
 #start
@@ -94,7 +126,7 @@ body
 {
     width: 23%;
     height: 45px;
-    padding-top:12px;
+    padding-top: 4px;
     text-align: center;
     background-color: rgb(0, 255, 255);
     color: black;
@@ -112,19 +144,20 @@ body
 /*#############################################################################
 ##############################################################################*/
 @media screen and (max-width:480px)
-{
+{   
+    *{
+        margin: 0;
+        padding: 0;
+    }
     body
     {
-        margin: 0px;
-        background-color: rgb(25, 25, 25);
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-size: cover;
+        direction: ltr;
+        background: linear-gradient(to right,rgb(25, 25, 25),rgb(46, 0, 0));
     }
     #main
     {
         max-width: 100%;
-        min-height: 750px;
+        min-height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content:flex-start ;
@@ -191,11 +224,13 @@ body
     #winMassage
     {
         display: none;
+        font-family: "roboto slab","arial",sans-serif;
         color: green !important;
     }
     #loseMassage
     {
         display: none;
+        font-family: "roboto slab","arial",sans-serif;
         color: red !important;
     }
     #start
@@ -209,12 +244,12 @@ body
     {
         width: 42%;
         height: 43px;
-        padding-top:2px;
+        padding-top:5px;
         text-align: center;
         background-color: rgb(0, 255, 255);
         color: black;
         font-family: "Roboto Slab" , arial , sans-serif;
-        font-size: 26px;
+        font-size: 24px;
         border-style: solid;
         border-width: 4px;
         border-color: dimgrey;
