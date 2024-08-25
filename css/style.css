@@ -238,6 +238,7 @@ body
         height: 60px;
         margin-top: 20px;
         text-align: center;
+        padding-top: 0px;
     }
     #startButton
     {
