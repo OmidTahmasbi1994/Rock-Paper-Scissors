@@ -34,7 +34,71 @@
 body
 {
     direction: ltr;
-    background: linear-gradient(to right,rgb(80, 80, 80),rgb(250, 250, 250));
+    background: url('/images/background-image.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mask
+{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    width: 100%;
+    min-height: 100vh;
+    background: rgba(215, 215, 215, 0.3);
+}
+.maskContainer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+}
+.maskTop
+{
+    width: 56%;
+    align-content: center;
+    direction: rtl;
+}
+.maskButton
+{
+    width: 30px;
+    height: 30px;
+    background: rgb(63, 63, 63) ;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    border: none;
+    border-radius: 20%;
+}
+.maskButton:hover
+{
+    transform: scale(0.9);
+    transition: 0.1s;
+    font-size: 21px;
+    background: rgb(63, 63, 63) ;
+    color: rgb(211, 60, 60);
+    cursor: pointer
+}
+.maskBottom
+{
+    width: 50%;
+    margin-top: 8px;
+    padding: 50px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to right , rgb(37, 37, 37) , rgb(61, 61, 61));
+    
+}
+.maskBottom span
+{
+    color: rgb(255, 255, 255);
+    font-family: "roboto slab","arial",sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.9;
 }
 #main
 {
@@ -44,6 +108,7 @@ body
     flex-direction: column;
     justify-content:flex-start ;
     align-items:center;
+    z-index: 1;
 }
 #main div
 {
@@ -89,7 +154,7 @@ body
     font-size: 27px;
     font-weight: bold;
     letter-spacing: 1px;
-    color: rgb(46, 0, 0);
+    color: rgb(255, 250, 250);
 }
 #startMassage
 {
@@ -107,13 +172,13 @@ body
 {
     display: none;
     font-family: "roboto slab","arial",sans-serif;
-    color: rgb(19, 133, 19) !important;
+    color: rgb(0, 255, 0) !important;
 }
 #loseMassage
 {
     display: none;
     font-family: "roboto slab","arial",sans-serif;
-    color: rgb(173, 14, 14) !important;
+    color: rgb(255, 16, 16) !important;
 }
 #start
 {
@@ -151,7 +216,70 @@ body
     body
     {
         direction: ltr;
-        background: linear-gradient(to right,rgb(80, 80, 80),rgb(175, 175, 175));
+        background: url('/images/background-image.jpg');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .mask
+    {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        z-index: 2;
+        width: 100%;
+        min-height: 100vh;
+        background: rgba(33, 33, 33, 0.9);
+    }
+    .maskContainer
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 150px;
+    }
+    .maskTop
+    {
+        width: 90%;
+        align-content: center;
+        direction: rtl;
+    }
+    .maskButton
+    {
+        width: 25px;
+        height: 25px;
+        padding-top: 1px;
+        background: rgb(63, 63, 63);
+        color: white;
+        font-size: 15px;
+        font-weight: 900;
+        border: none;
+        border-radius: 20%;
+    }
+    .maskButton:hover
+    {
+        transform: scale(1);
+        font-size: 15px;
+        background: rgb(63, 63, 63);
+        color: white;
+    }
+    .maskBottom
+    {
+        width: 80%;
+        margin-top: 5px;
+        padding: 20px;
+        border: none;
+        border-radius: 5px;
+        background: linear-gradient(to right , rgb(37, 37, 37) , rgb(61, 61, 61));
+        
+    }
+    .maskBottom span
+    {
+        color: rgb(255, 255, 255);
+        font-family: "roboto slab","arial",sans-serif;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 1.9;
     }
     #main
     {
@@ -161,6 +289,7 @@ body
         flex-direction: column;
         justify-content:flex-start ;
         align-items:center;
+        z-index: 1;
     }
     #main div
     {
@@ -207,7 +336,7 @@ body
         font-weight: bold;
         font-family: "roboto slab",arial,sans-serif;
         letter-spacing: 1px;
-        color: rgb(46, 0, 0);
+        color: rgb(255, 250, 250);
     }
     #startMassage
     {
@@ -225,13 +354,13 @@ body
     {
         display: none;
         font-family: "roboto slab","arial",sans-serif;
-        color: rgb(32, 255, 32) !important;
+        color: rgb(0, 255, 0) !important;
     }
     #loseMassage
     {
         display: none;
         font-family: "roboto slab","arial",sans-serif;
-        color: rgb(255, 0, 51) !important;
+        color: rgb(255, 16, 16)  !important;
     }
     #start
     {

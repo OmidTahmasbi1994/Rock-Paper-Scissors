@@ -1,3 +1,7 @@
+function exitMask(){
+    const mask = document.getElementById('maskDiv');
+    mask.style.display = 'none';
+}
 function gameStart()
 {
     document.getElementById('rockImage').style.display="inline";
