@@ -5,7 +5,6 @@
     url(../webfonts/fa-brands-400.woff2) format('woff2');
     font-weight: brands;
 }
-
 @font-face {
     font-family: 'FontAwesome';
     src: url(../webfonts/fa-regular-400.ttf) format('usertype') ,
@@ -34,7 +33,7 @@
 body
 {
     direction: ltr;
-    background: url('/images/background-image.jpg');
+    background: url('../images/background.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -44,10 +43,10 @@ body
     position: fixed;
     top: 0px;
     left: 0px;
-    z-index: 2;
     width: 100%;
     min-height: 100vh;
     background: rgba(215, 215, 215, 0.3);
+    z-index: 2;
 }
 .maskContainer
 {
@@ -80,7 +79,7 @@ body
     font-size: 21px;
     background: rgb(63, 63, 63) ;
     color: rgb(211, 60, 60);
-    cursor: pointer
+    cursor: pointer;
 }
 .maskBottom
 {
@@ -216,7 +215,7 @@ body
     body
     {
         direction: ltr;
-        background: url('/images/background-image.jpg');
+        background-image: url('../images/background.jpg');
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: cover;
