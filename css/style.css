@@ -53,7 +53,7 @@ body
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 150px;
+    padding-top: 130px;
 }
 .maskTop
 {
@@ -113,11 +113,36 @@ body
 {
     width: 45%;
 }
+#title
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+}
+h1
+{
+    color: orange;
+    font-size: 38px;
+    font-family: "roboto slab","arial",sans-serif;
+}
+h1 i
+{
+    transform: rotateZ(180deg);
+    transform: rotateY(180deg);
+    font-size: 34px;
+}
+#title span
+{
+    color: orange;
+    font-size: smaller;
+    font-family: "roboto slab","arial",sans-serif;
+}
 #round
 {
-    margin-top: 60px;
+    margin-top: 30px;
     text-align:center;
-    height: 340px;
+    height: 330px;
 }
 #round img
 {
@@ -125,25 +150,25 @@ body
     width: 30%;
     height: 95%;
     border-style: solid;
-    border-width: 4px;
+    border-width: 3px;
     border-color: dimgrey;
     border-radius: 4px;
 }
 #select
 {
-    height: 160px;
+    height: 125px;
     margin-top: 0px;
     text-align: center;
 }
 #select img
 {
     display:none;/* look at this */
-    width:65px;
-    margin-top:20px;
+    width:56px;
+    margin-top:10px;
     margin-left: 3px;
     margin-right: 3px;
     border-style: solid;
-    border-width: 4px;
+    border-width: 3px;
     border-color: dimgrey;
     border-radius: 100px;
     cursor:pointer;
@@ -153,19 +178,19 @@ body
     font-size: 27px;
     font-weight: bold;
     letter-spacing: 1px;
-    color: rgb(255, 250, 250);
+    color: orange;
 }
 #startMassage
 {
     display: inline;
     font-family: "roboto slab","arial",sans-serif;
-    font-size: 23px !important;
+    font-size: 20px !important;
 }
 #repeatMassage
 {
     display: none;
     font-family: "roboto slab","arial",sans-serif;  
-    font-size: 23px !important;
+    font-size: 20px !important;
 }
 #winMassage
 {
@@ -182,30 +207,30 @@ body
 #start
 {
     height: 80px;
-    margin-top: 10px;
+    margin-top: 0px;
     text-align: center;
     padding-top: 0px;  
 }
 #startButton
 {
-    width: 23%;
-    height: 45px;
-    padding-top: 7px;
-    background-color: rgb(0, 255, 255);
+    width: 20%;
+    height: 40px;
+    padding-top: 4px;
+    background-color: orange;
     color: rgb(46, 0, 0);
     font-family: "Roboto Slab" , arial , sans-serif;
-    font-size: 26px;
+    font-size: 23px;
     font-weight: bold;
     border-style: solid;
-    border-width: 4px;
+    border-width: 3px;
     border-color: dimgrey;
-    border-radius: 20px;
+    border-radius: 40px;
     cursor:default;
 }
 
-
 /*#############################################################################
 ##############################################################################*/
+
 @media screen and (max-width:480px)
 {   
     *{
@@ -294,33 +319,58 @@ body
     {
         width: 100%;
     }
+    #title
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 28px;
+    }
+    h1
+    {
+        color: orange;
+        font-size: 28px;
+        font-family: "roboto slab","arial",sans-serif;
+    }
+    h1 i
+    {
+        transform: rotateZ(180deg);
+        transform: rotateY(180deg);
+        font-size: 24px;
+    }
+    #title span
+    {
+        color: orange;
+        font-size: 11px;
+        font-family: "roboto slab","arial",sans-serif;
+    }
     #round
     {
-        margin-top: 75px;
+        margin-top: 22px;
         text-align:center;
-        height: 340px;
+        height: 330px;
     }
     #round img
     {
         display:none;/* look at this */
-        width: 60%;
+        width: 53%;
         height: 95%;
         border-style: solid;
-        border-width: 2px;
+        border-width: 3px;
         border-color: dimgrey;
-        border-radius: 2px;
+        border-radius: 4px;
     }
     #select
     {
-        height: 150px;
+        height: 118px;
         margin-top: 0px;
         text-align: center;
     }
     #select img
     {
         display:none;/* look at this */
-        width:58px;
-        margin-top:20px;
+        width:50px;
+        margin-top:10px;
         margin-left: 3px;
         margin-right: 3px;
         border-style: solid;
@@ -331,23 +381,22 @@ body
     }
     #select span
     {
-        font-size: 25px;
+        font-size: 22px;
         font-weight: bold;
-        font-family: "roboto slab",arial,sans-serif;
         letter-spacing: 1px;
-        color: rgb(255, 250, 250);
+        color: orange;
     }
     #startMassage
     {
         display: inline;
         font-family: "roboto slab","arial",sans-serif;
-        font-size: 22px !important;
+        font-size: 17px !important;
     }
     #repeatMassage
     {
         display: none;
         font-family: "roboto slab","arial",sans-serif;  
-        font-size: 22px !important;
+        font-size: 17px !important;
     }
     #winMassage
     {
@@ -359,28 +408,29 @@ body
     {
         display: none;
         font-family: "roboto slab","arial",sans-serif;
-        color: rgb(255, 16, 16)  !important;
+        color: rgb(255, 16, 16) !important;
     }
     #start
     {
-        height: 60px;
-        margin-top: 20px;
+        height: 80px;
+        margin-top: 0px;
         text-align: center;
         padding-top: 0px;  
     }
     #startButton
     {
         width: 42%;
-        height: 43px;
-        padding-top:7px;
-        text-align: center;
-        background-color: rgb(0, 255, 255);
+        height: 42px;
+        padding-top: 4px;
+        background-color: orange;
         color: rgb(46, 0, 0);
         font-family: "Roboto Slab" , arial , sans-serif;
         font-size: 24px;
+        font-weight: bold;
         border-style: solid;
-        border-width: 4px;
-        border-color: rgb(63, 63, 63);
-        border-radius: 30px;
+        border-width: 3px;
+        border-color: dimgrey;
+        border-radius: 40px;
+        cursor:default;
     }   
 }
