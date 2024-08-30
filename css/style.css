@@ -354,7 +354,7 @@ h1 i
     {
         display:none;/* look at this */
         width: 53%;
-        height: 95%;
+        height: 97%;
         border-style: solid;
         border-width: 3px;
         border-color: dimgrey;
@@ -362,8 +362,8 @@ h1 i
     }
     #select
     {
-        height: 118px;
-        margin-top: 0px;
+        height: 116px;
+        padding-top: 7px;
         text-align: center;
     }
     #select img
@@ -371,8 +371,8 @@ h1 i
         display:none;/* look at this */
         width:50px;
         margin-top:10px;
-        margin-left: 3px;
-        margin-right: 3px;
+        margin-left: 4px;
+        margin-right: 4px;
         border-style: solid;
         border-width: 3px;
         border-color: dimgrey;
@@ -381,7 +381,7 @@ h1 i
     }
     #select span
     {
-        font-size: 22px;
+        font-size: 18px;
         font-weight: bold;
         letter-spacing: 1px;
         color: orange;
@@ -412,7 +412,7 @@ h1 i
     }
     #start
     {
-        height: 80px;
+        height: 60px;
         margin-top: 0px;
         text-align: center;
         padding-top: 0px;  
@@ -421,7 +421,7 @@ h1 i
     {
         width: 42%;
         height: 42px;
-        padding-top: 4px;
+        padding-top: 5px;
         background-color: orange;
         color: rgb(46, 0, 0);
         font-family: "Roboto Slab" , arial , sans-serif;
