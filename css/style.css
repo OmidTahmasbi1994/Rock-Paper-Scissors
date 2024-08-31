@@ -175,7 +175,7 @@ h1 i
 }
 #select span
 {
-    font-size: 27px;
+    font-size: 20px;
     font-weight: bold;
     letter-spacing: 1px;
     color: orange;
@@ -207,7 +207,7 @@ h1 i
 #start
 {
     height: 80px;
-    margin-top: 0px;
+    margin-top: 3px;
     text-align: center;
     padding-top: 0px;  
 }
